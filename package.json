@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/win-wo/docker_travisCi_node/issues"
   },
-  "homepage": "https://github.com/win-wo/docker_travisCi_node#readme"
+  "homepage": "https://github.com/win-wo/docker_travisCi_node#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
